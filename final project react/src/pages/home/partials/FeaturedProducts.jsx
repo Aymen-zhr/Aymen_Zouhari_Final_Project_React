@@ -47,7 +47,7 @@ const FeaturedProducts = () => {
                             transform: `translateX(-${productIndex * 25}%)`
                         }}
                     >
-                        <div className="w-1/4 flex-shrink-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4">
+                        <div className="w-1/4  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4">
                             <div className="group/item cursor-pointer">
                                 <div className="relative overflow-hidden bg-white mb-4">
                                     <img src={images.products.product1} alt="Boxy7 T-Shirt with Roll Sleeve" className="w-full h-[400px] object-cover transition-transform duration-500 group-hover/item:scale-110" />
@@ -98,7 +98,7 @@ const FeaturedProducts = () => {
                             </div>
                         </div>
 
-                        <div className="w-1/4 flex-shrink-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4">
+                        <div className="w-1/4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4">
                             <div className="group/item cursor-pointer">
                                 <div className="relative overflow-hidden bg-white mb-4">
                                     <img src={images.products.product5} alt="Boxy3 T-Shirt with Roll Sleeve" className="w-full h-[400px] object-cover transition-transform duration-500 group-hover/item:scale-110" />
@@ -153,7 +153,7 @@ const FeaturedProducts = () => {
                             </div>
                         </div>
 
-                        <div className="w-1/4 flex-shrink-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4">
+                        <div className="w-1/4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4">
                             <div className="group/item cursor-pointer">
                                 <div className="relative overflow-hidden bg-white mb-4">
                                     <img src={images.products.product1} alt="Boxy7 T-Shirt with Roll Sleeve" className="w-full h-[400px] object-cover transition-transform duration-500 group-hover/item:scale-110" />
@@ -204,7 +204,7 @@ const FeaturedProducts = () => {
                             </div>
                         </div>
 
-                        <div className="w-1/4 flex-shrink-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4">
+                        <div className="w-1/4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4">
                             <div className="group/item cursor-pointer">
                                 <div className="relative overflow-hidden bg-white mb-4">
                                     <img src={images.products.product5} alt="Boxy3 T-Shirt with Roll Sleeve" className="w-full h-[400px] object-cover transition-transform duration-500 group-hover/item:scale-110" />

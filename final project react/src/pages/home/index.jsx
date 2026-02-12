@@ -4,6 +4,7 @@ import Topbar from "../../components/Header/TopBar";
 import HeroCarousel from "./partials/HeroCarousel";
 import Cards from "./partials/Cards";
 import FeaturedProducts from "./partials/FeaturedProducts";
+import LookbookCountdown from "./partials/LookbookCountdown";
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <HeroCarousel />
       <Cards />
       <FeaturedProducts />
+      <LookbookCountdown />
     </>
   );
 };
