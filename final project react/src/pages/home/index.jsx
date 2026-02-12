@@ -6,6 +6,7 @@ import Cards from "./partials/Cards";
 import FeaturedProducts from "./partials/FeaturedProducts";
 import LookbookCountdown from "./partials/LookbookCountdown";
 import OurBlog from "./partials/OurBlog";
+import InstagramInfo from "./partials/InstagramInfo";
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
       <FeaturedProducts />
       <LookbookCountdown />
       <OurBlog />
+      <InstagramInfo />
     </>
   );
 };
