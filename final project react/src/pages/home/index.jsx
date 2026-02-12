@@ -7,6 +7,7 @@ import FeaturedProducts from "./partials/FeaturedProducts";
 import LookbookCountdown from "./partials/LookbookCountdown";
 import OurBlog from "./partials/OurBlog";
 import InstagramInfo from "./partials/InstagramInfo";
+import Footer from "../../components/Footer/Footer";
 
 const Index = () => {
   return (
@@ -19,6 +20,7 @@ const Index = () => {
       <LookbookCountdown />
       <OurBlog />
       <InstagramInfo />
+      <Footer />
     </>
   );
 };
