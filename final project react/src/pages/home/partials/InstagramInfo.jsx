@@ -15,7 +15,7 @@ const InstagramInfo = () => {
                         <h3 className="text-gray-800 text-lg font-medium mb-2 uppercase tracking-wide">30 Days Return</h3>
                         <p className="text-gray-500 text-sm italic">Simply return it within 30 days for an exchange.</p>
                     </div>
-                    <div className="flex-1 py-8 md:px-8">
+                    <div className="flex-1 py-8 md:px-8.1">
                         <h3 className="text-gray-800 text-lg font-medium mb-2 uppercase tracking-wide">Store Opening</h3>
                         <p className="text-gray-500 text-sm italic">Shop open from Monday to Sunday</p>
                     </div>
