@@ -3,6 +3,7 @@ import Navbar from "../../components/Header/Navbar";
 import Topbar from "../../components/Header/TopBar";
 import HeroCarousel from "./partials/HeroCarousel";
 import Cards from "./partials/Cards";
+import FeaturedProducts from "./partials/FeaturedProducts";
 
 const Index = () => {
   return (
@@ -11,6 +12,7 @@ const Index = () => {
       <Navbar />
       <HeroCarousel />
       <Cards />
+      <FeaturedProducts />
     </>
   );
 };
