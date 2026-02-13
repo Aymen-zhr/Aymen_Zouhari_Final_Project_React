@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Index from './pages/home/index'
 import Shop from './pages/shop/index'
 import Contact from './pages/contact/index'
+import Sale from './pages/sale'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
     path: '/contact',
     element: <Contact />
   },
+  {
+    path: '/sale',
+    element: <Sale />
+  }
 ])
 
 createRoot(document.getElementById('root')).render(
