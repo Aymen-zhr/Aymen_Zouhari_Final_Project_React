@@ -2,6 +2,7 @@ import { images } from "../../constants/images";
 import Topbar from "../../components/Header/TopBar";
 import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
+import Map from "./partials/contact_map";
 
 const Contact = () => {
     return (
