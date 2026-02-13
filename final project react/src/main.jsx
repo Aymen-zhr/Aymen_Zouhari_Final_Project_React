@@ -6,6 +6,7 @@ import Index from './pages/home/index'
 import Shop from './pages/shop/index'
 import Contact from './pages/contact/index'
 import Sale from './pages/sale'
+import About from './pages/about'
 
 const router = createBrowserRouter([
   {
@@ -23,7 +24,11 @@ const router = createBrowserRouter([
   {
     path: '/sale',
     element: <Sale />
-  }
+  },
+  {
+    path: '/about',
+    element: <About />
+  },
 ])
 
 createRoot(document.getElementById('root')).render(
