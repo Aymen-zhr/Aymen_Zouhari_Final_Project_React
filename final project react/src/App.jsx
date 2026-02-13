@@ -1,13 +1,8 @@
-import './App.css'
-import Index from './pages/home/index'
+import './App.css';
+import Index from './pages/home/index';
 
 function App() {
-
-  return (
-    <>
-      <Index />
-    </>
-  )
+  return <Index />;
 }
 
 export default App
